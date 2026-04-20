@@ -71,6 +71,7 @@ public class JogoAdivinhacao{
                 return;
             }
 
+            // tentativas restantes podem ser reduzidas em quantidades maiores
             tentativasRestantes--;
             darDica(chute, tentativasRestantes);
             System.out.println("Tentativas restantes " + tentativasRestantes);
