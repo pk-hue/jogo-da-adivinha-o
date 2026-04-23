@@ -30,7 +30,7 @@ public class JogoAdivinhacao{
             }
         }
     }
-
+    //metodo deve ser refatorado!
     private static void darDica(int chute, int tentativasRestantes){
         if(chute > tentativasRestantes){
             System.out.println("O número secreto é maior que " + chute);
