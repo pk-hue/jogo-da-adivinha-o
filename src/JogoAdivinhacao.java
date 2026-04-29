@@ -17,6 +17,7 @@ public class JogoAdivinhacao{
             System.out.print("Tentativa " + (MAX_TENTATIVAS - tentativasRestantes + 1) + " de " + MAX_TENTATIVAS + "Digite seu chute (" + MIN_NUMERO + " " + MAX_NUMERO + "): ");
 
             try{
+                int chuteAcaso;
                 int chute = sc.nextInt();
                 if(chute < MIN_NUMERO || chute > MAX_NUMERO){
                     System.out.println("Digite um numero valido entre " + MIN_NUMERO + " e " + MAX_NUMERO + ".");
