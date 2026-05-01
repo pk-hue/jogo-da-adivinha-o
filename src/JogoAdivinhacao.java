@@ -18,6 +18,7 @@ public class JogoAdivinhacao{
 
             try{
                 int chuteAcaso;
+                String test;
                 int chute = sc.nextInt();
                 if(chute < MIN_NUMERO || chute > MAX_NUMERO){
                     System.out.println("Digite um numero valido entre " + MIN_NUMERO + " e " + MAX_NUMERO + ".");
